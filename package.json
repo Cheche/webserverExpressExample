@@ -1,11 +1,13 @@
 {
   "name": "webserver",
   "version": "1.0.0",
-  "description": "",
+  "description": "una super app",
+  "repository": {
+    "private": true
+  },
   "main": "app.js",
   "scripts": {
     "start": "node server.js",
-    "nodemon": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

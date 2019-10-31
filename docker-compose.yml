@@ -1,0 +1,17 @@
+version: '3.7'
+
+services:
+  node:  
+    build:
+      context: .
+      target: development
+    # command: npm start
+    command: npx nodemon server.js -e json,hbs,html,css,map,jpeg,jpg,png,svg
+    ports:
+      - '3000:3000'
+    volumes:
+      - .:/srv/src
+      - node_modules:/srv/src/node_modules
+
+volumes:
+  node_modules:

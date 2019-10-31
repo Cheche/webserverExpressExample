@@ -1,0 +1,7 @@
+# Ignore Files and Folders to Copy
+node_modules
+npm-debug.log
+Dockerfile
+.dockerignore
+.git
+.gitignore
