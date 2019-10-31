@@ -1,0 +1,4 @@
+# Estos archivos son ignorados en HEROKU
+
+Dockerfile
+docker-compose.yml
